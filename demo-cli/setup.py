@@ -4,7 +4,7 @@ setup(
     name = "demo-cli",
     entry_points = {
         'console_scripts': [
-            'demo = src.__main__:main'
+            'demo = app.__main__:main'
         ]
     },
 )
